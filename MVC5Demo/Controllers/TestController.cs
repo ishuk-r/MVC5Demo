@@ -13,7 +13,10 @@ namespace MVC5Demo.Controllers
         {
             return View();
         }
-
+        /// <summary>
+        /// Welcome action method
+        /// </summary>
+        /// <returns></returns>
         public ActionResult Welcome()
         {
              ViewBag.v = "234";
