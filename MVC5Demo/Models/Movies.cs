@@ -6,6 +6,9 @@ using System.Data.Entity;
 
 namespace MVC5Demo.Models
 {
+    /// <summary>
+    /// Movies class
+    /// </summary>
     public class Movies
     {
         public int ID { get; set; }
